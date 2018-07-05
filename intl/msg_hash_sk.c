@@ -1,6 +1,5 @@
 /*  RetroArch - A frontend for libretro.
- *  Copyright (C) 2011-2017 - Daniel De Matteis
- *  Copyright (C) 2016-2017 - Brad Parker
+ *  Copyright (C) 2018-2018 - Vladimír Záhradník
  *
  *  RetroArch is free software: you can redistribute it and/or modify it under the terms
  *  of the GNU General Public License as published by the Free Software Found-
@@ -27,7 +26,7 @@
 #ifdef RARCH_INTERNAL
 #include "../configuration.h"
 
-int menu_hash_get_help_us_enum(enum msg_hash_enums msg, char *s, size_t len)
+int menu_hash_get_help_sk_enum(enum msg_hash_enums msg, char *s, size_t len)
 {
     settings_t *settings = config_get_ptr();
 
@@ -2077,7 +2076,7 @@ int menu_hash_get_help_us_enum(enum msg_hash_enums msg, char *s, size_t len)
 #endif
 
 #ifdef HAVE_MENU
-static const char *menu_hash_to_str_us_label_enum(enum msg_hash_enums msg)
+static const char *menu_hash_to_str_sk_label_enum(enum msg_hash_enums msg)
 {
    if (msg <= MENU_ENUM_LABEL_INPUT_HOTKEY_BIND_END &&
          msg >= MENU_ENUM_LABEL_INPUT_HOTKEY_BIND_BEGIN)
@@ -2102,16 +2101,16 @@ static const char *menu_hash_to_str_us_label_enum(enum msg_hash_enums msg)
 }
 #endif
 
-const char *msg_hash_to_str_us(enum msg_hash_enums msg) {
+const char *msg_hash_to_str_sk(enum msg_hash_enums msg) {
 #ifdef HAVE_MENU
-    const char *ret = menu_hash_to_str_us_label_enum(msg);
+    const char *ret = menu_hash_to_str_sk_label_enum(msg);
 
     if (ret && !string_is_equal(ret, "null"))
        return ret;
 #endif
 
     switch (msg) {
-#include "msg_hash_us.h"
+#include "msg_hash_sk.h"
         default:
 #if 0
             RARCH_LOG("Unimplemented: [%d]\n", msg);

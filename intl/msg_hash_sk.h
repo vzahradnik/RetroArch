@@ -972,39 +972,41 @@ MSG_HASH(MENU_ENUM_LABEL_VALUE_JOYPAD_DRIVER,
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LAKKA_SERVICES,
       "Services")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LANG_CHINESE_SIMPLIFIED,
-      "Chinese (Simplified)")
+      "Čínština (zjednodušená)")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LANG_CHINESE_TRADITIONAL,
-      "Chinese (Traditional)")
+      "Čínština (tradičná)")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LANG_DUTCH,
-      "Dutch")
+      "Holandčina")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LANG_ENGLISH,
-      "English")
+      "Angličtina")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LANG_ESPERANTO,
       "Esperanto")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LANG_FRENCH,
-      "French")
+      "Francúzština")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LANG_GERMAN,
-      "German")
+      "Nemčina")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LANG_ITALIAN,
-      "Italian")
+      "Taliančina")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LANG_JAPANESE,
-      "Japanese")
+      "Japončina")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LANG_KOREAN,
-      "Korean")
+      "Kórejčina")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LANG_POLISH,
-      "Polish")
+      "Poľština")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LANG_PORTUGUESE_BRAZIL,
-      "Portuguese (Brazil)")
+      "Portugalčina (Brazília)")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LANG_PORTUGUESE_PORTUGAL,
-      "Portuguese (Portugal)")
+      "Portugalčina (Portugalsko)")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LANG_RUSSIAN,
-      "Russian")
+      "Ruština")
+MSG_HASH(MENU_ENUM_LABEL_VALUE_LANG_SLOVAK,
+      "Slovenčina")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LANG_SPANISH,
-      "Spanish")
+      "Španielčina")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LANG_VIETNAMESE,
-      "Vietnamese")
+      "Vietnamčina")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LANG_ARABIC,
-      "Arabic")
+      "Arabčina")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LEFT_ANALOG,
       "Left Analog")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LIBRETRO_DIR_PATH,

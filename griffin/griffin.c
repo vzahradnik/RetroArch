@@ -1009,6 +1009,7 @@ RETROARCH
 #include "../intl/msg_hash_pt_pt.c"
 #include "../intl/msg_hash_pl.c"
 #include "../intl/msg_hash_ru.c"
+#include "../intl/msg_hash_sk.c"
 #include "../intl/msg_hash_vn.c"
 #include "../intl/msg_hash_chs.c"
 #include "../intl/msg_hash_cht.c"
