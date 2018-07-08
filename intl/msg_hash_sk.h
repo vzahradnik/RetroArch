@@ -36,7 +36,7 @@ MSG_HASH(
       )
 MSG_HASH(
       MSG_SETTING_DISK_IN_TRAY,
-      "Nastavuje sa disk v mechanike"
+      "Nastavuje sa vložený disk"
       )
 MSG_HASH(
       MSG_WAITING_FOR_CLIENT,
@@ -192,7 +192,7 @@ MSG_HASH(
       )
 MSG_HASH(
       MENU_ENUM_LABEL_VALUE_ACCOUNTS_CHEEVOS_SETTINGS,
-      "Úspechy účtov"
+      "Achievementy - účty"
       )
 MSG_HASH(
       MENU_ENUM_LABEL_VALUE_ACCOUNTS_CHEEVOS_USERNAME,
@@ -204,7 +204,7 @@ MSG_HASH(
       )
 MSG_HASH(
       MENU_ENUM_LABEL_VALUE_ACCOUNTS_LIST_END,
-      "Konečný bod zoznamu účtov"
+      "Koncový ukazovateľ zoznamu účtov"
       )
 MSG_HASH(
       MENU_ENUM_LABEL_VALUE_ACCOUNTS_RETRO_ACHIEVEMENTS,
@@ -224,7 +224,7 @@ MSG_HASH(
       )
 MSG_HASH(
       MENU_ENUM_LABEL_VALUE_ACHIEVEMENT_LIST_HARDCORE,
-      "Achievementy (Hardcore)"
+      "Achievementy (hardcore)"
       )
 MSG_HASH(
       MENU_ENUM_LABEL_VALUE_ADD_CONTENT_LIST,
@@ -528,7 +528,7 @@ MSG_HASH(
       )
 MSG_HASH(
       MENU_ENUM_LABEL_VALUE_CONFIGURATION_SETTINGS,
-      "Konfigurácie"
+      "Konfigurácia"
       )
 MSG_HASH(
       MENU_ENUM_LABEL_VALUE_CONFIG_SAVE_ON_EXIT,
@@ -620,69 +620,69 @@ MSG_HASH(MENU_ENUM_LABEL_VALUE_DATABASE_SELECTION,
 MSG_HASH(MENU_ENUM_LABEL_VALUE_DELETE_ENTRY,
       "Vymazať")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_FAVORITES,
-      "Start directory")
+      "Počiatočný adresár")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_DIRECTORY_CONTENT,
-      "<Content dir>")
+      "<Adresár s obsahom>")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_DIRECTORY_DEFAULT,
-      "<Default>")
+      "<Predvolený>")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_DIRECTORY_NONE,
-      "<None>")
+      "<Žiadny>")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_DIRECTORY_NOT_FOUND,
-      "Directory not found.")
+      "Adresár nebol nájdený.")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_DIRECTORY_SETTINGS,
-      "Directory")
+      "Adresár")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_DISK_CYCLE_TRAY_STATUS,
-      "Disk Cycle Tray Status")
+      "Stav disku")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_DISK_IMAGE_APPEND,
-      "Disk Image Append")
+      "Pripojiť obraz disku")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_DISK_INDEX,
-      "Disk Index")
+      "Index disku")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_DISK_OPTIONS,
-      "Disk Control")
+      "Možnosti disku")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_DONT_CARE,
-      "Don't care")
+      "Ignorovať")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_DOWNLOADED_FILE_DETECT_CORE_LIST,
-      "Downloads")
+      "Stiahnuté súbory")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_DOWNLOAD_CORE,
-      "Download Core...")
+      "Stiahnuť jadro...")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_DOWNLOAD_CORE_CONTENT,
-      "Content Downloader")
+      "Stiahnuť obsah")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_DPI_OVERRIDE_ENABLE,
-      "DPI Override Enable")
+      "Povoliť prepísanie DPI")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_DPI_OVERRIDE_VALUE,
-      "DPI Override")
+      "Prepísanie DPI")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_DRIVER_SETTINGS,
-      "Driver")
+      "Ovládač")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_DUMMY_ON_CORE_SHUTDOWN,
-      "Load Dummy on Core Shutdown")
+      "Načítať po vypnutí jadra prázdne jadro")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_CHECK_FOR_MISSING_FIRMWARE,
-      "Check for Missing Firmware Before Loading")
+      "Skontrolovať pred načítaním nedostupnosť súborov s firmvérom")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_DYNAMIC_WALLPAPER,
-      "Dynamic Background")
+      "Dynamické pozadie")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_DYNAMIC_WALLPAPERS_DIRECTORY,
-      "Dynamic Backgrounds")
+      "Dynamické pozadia")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_CHEEVOS_ENABLE,
-      "Enable Achievements")
+      "Povoliť achievementy")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_ENTRY_HOVER_COLOR,
-      "Menu entry hover color")
+      "Farba pre vybrané položky menu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_ENTRY_NORMAL_COLOR,
-      "Menu entry normal color")
+      "Farba pre nevybrané položky menu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_FALSE,
-      "False")
+      "Vypnuté")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_FASTFORWARD_RATIO,
-      "Maximum Run Speed")
+      "Najvyššia rýchlosť behu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_FAVORITES_TAB,
-      "Favorites")
+      "Obľúbené")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_FPS_SHOW,
-      "Display Framerate")
+      "Zobraziť snímkovú frekvenciu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_FRAME_THROTTLE_ENABLE,
-      "Limit Maximum Run Speed")
+      "Obmedziť najvyššiu rýchlosť behu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_FRAME_THROTTLE_SETTINGS,
-      "Frame Throttle")
+      "Obmedziť snímkovú frekvenciu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_FRONTEND_COUNTERS,
-      "Frontend Counters")
+      "Frontend počítadlá")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_GAME_SPECIFIC_OPTIONS,
-      "Load Content-Specific Core Options Automatically")
+      "Automaticky načíta možnosti jadra špecifické pre obsah")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_GAME_SPECIFIC_OPTIONS_CREATE,
       "Create game-options file")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_GAME_SPECIFIC_OPTIONS_IN_USE,
