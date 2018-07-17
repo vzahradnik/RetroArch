@@ -164,7 +164,7 @@ MSG_HASH(
       )
 MSG_HASH(
       MSG_AUTOLOADING_SAVESTATE_FROM,
-      "Automaticky sa načíta uložený stav (savestate) z"
+      "Automaticky sa načíta uložený stav hry z"
       )
 MSG_HASH(
       MSG_CAPABILITIES,
@@ -412,7 +412,7 @@ MSG_HASH(
       )
 MSG_HASH(
       MENU_ENUM_LABEL_VALUE_BLOCK_SRAM_OVERWRITE,
-      "Neprepisovať SaveRAM počas načítania uloženého stavu (savestate)"
+      "Neprepisovať SaveRAM počas načítania uloženého stavu hry"
       )
 MSG_HASH(
       MENU_ENUM_LABEL_VALUE_BLUETOOTH_ENABLE,
@@ -692,7 +692,7 @@ MSG_HASH(MENU_ENUM_LABEL_VALUE_HELP,
 MSG_HASH(MENU_ENUM_LABEL_VALUE_HELP_AUDIO_VIDEO_TROUBLESHOOTING,
       "Riešenie problémov so zvukom/videom")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_HELP_CHANGE_VIRTUAL_GAMEPAD,
-      "Zmena prekrytia (overlay) virtuálneho herného ovládača")
+      "Zmena prekrytia (overlay) virtuálneho gamepadu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_HELP_CONTROLS,
       "Základné ovládanie menu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_HELP_LIST,
@@ -780,197 +780,197 @@ MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_BIND_TIMEOUT,
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_BIND_HOLD,
       "Pozdržať priradenie")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_DESCRIPTOR_HIDE_UNBOUND,
-      "Hide Unbound Core Input Descriptors")
+      "Skryť popisy pre nepriradené vstupy")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_DESCRIPTOR_LABEL_SHOW,
-      "Display Input Descriptor Labels")
+      "Zobraziť menovky vstupov")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_DEVICE_INDEX,
-      "Device Index")
+      "Index zariadenia")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_DEVICE_TYPE,
-      "Device Type")
+      "Typ zariadenia")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_MOUSE_INDEX,
-      "Mouse Index")
+      "Index myši")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_DRIVER,
-      "Input Driver")
+      "Vstupný ovládač")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_DUTY_CYCLE,
-      "Duty Cycle")
+      "Pracovný cyklus")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_HOTKEY_BINDS,
-      "Input Hotkey Binds")
+      "Priradiť klávesové skratky")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_ICADE_ENABLE,
-      "Keyboard Gamepad Mapping Enable")
+      "Namapovať vstupy z gamepadu na klávesnicu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_JOYPAD_A,
-      "A button (right)")
+      "Tlačidlo A (doprava)")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_JOYPAD_B,
-      "B button (down)")
+      "Tlačidlo B (nadol)")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_JOYPAD_DOWN,
-      "Down D-pad")
+      "D-pad nadol")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_JOYPAD_L2,
-      "L2 button (trigger)")
+      "Tlačidlo L2 (spúšť)")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_JOYPAD_L3,
-      "L3 button (thumb)")
+      "Tlačidlo L3 (palec)")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_JOYPAD_L,
-      "L button (shoulder)")
+      "Tlačidlo L (rameno)")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_JOYPAD_LEFT,
-      "Left D-pad")
+      "D-pad doľava")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_JOYPAD_R2,
-      "R2 button (trigger)")
+      "Tlačidlo R2 (spúšť)")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_JOYPAD_R3,
-      "R3 button (thumb)")
+      "Tlačidlo R3 (palec)")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_JOYPAD_R,
-      "R button (shoulder)")
+      "Tlačidlo R (rameno)")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_JOYPAD_RIGHT,
-      "Right D-pad")
+      "D-pad doprava")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_JOYPAD_SELECT,
-      "Select button")
+      "Tlačidlo Select")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_JOYPAD_START,
-      "Start button")
+      "Tlačidlo Start")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_JOYPAD_UP,
-      "Up D-pad")
+      "D-pad nahor")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_JOYPAD_X,
-      "X button (top)")
+      "Tlačidlo X (hore)")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_JOYPAD_Y,
-      "Y button (left)")
+      "Tlačidlo Y (doľava)")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_KEY,
-      "(Key: %s)")
+      "(Kláves: %s)")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_MOUSE_LEFT,
-      "Mouse 1")
+      "Myš 1")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_MOUSE_RIGHT,
-      "Mouse 2")
+      "Myš 2")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_MOUSE_MIDDLE,
-      "Mouse 3")
+      "Myš 3")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_MOUSE_BUTTON4,
-      "Mouse 4")
+      "Myš 4")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_MOUSE_BUTTON5,
-      "Mouse 5")
+      "Myš 5")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_MOUSE_WHEEL_UP,
-      "Wheel Up")
+      "Volant nahor")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_MOUSE_WHEEL_DOWN,
-      "Wheel Down")
+      "Volant nadol")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_MOUSE_HORIZ_WHEEL_UP,
-      "Wheel Left")
+      "Volant doľava")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_MOUSE_HORIZ_WHEEL_DOWN,
-      "Wheel Right")
+      "Volant doprava")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_KEYBOARD_GAMEPAD_MAPPING_TYPE,
-      "Keyboard Gamepad Mapping Type")
+      "Typ mapovania vstupov z gamepadu na klávesnicu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_MAX_USERS,
-      "Max Users")
+      "Najvyšší počet používateľov")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_MENU_ENUM_TOGGLE_GAMEPAD_COMBO,
-      "Menu Toggle Gamepad Combo")
+      "Kombinácia tlačidiel gamepadu pre vyvolanie menu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_CHEAT_INDEX_MINUS,
       "Cheat index -")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_CHEAT_INDEX_PLUS,
       "Cheat index +")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_CHEAT_TOGGLE,
-      "Cheat toggle")
+      "Zapnúť/vypnúť cheaty")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_DISK_EJECT_TOGGLE,
-      "Disk eject toggle")
+      "Vložiť/vysunúť disk")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_DISK_NEXT,
-      "Disk next")
+      "Nasledujúci disk")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_DISK_PREV,
-      "Disk prev")
+      "Predchádzajúci disk")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_ENABLE_HOTKEY,
-      "Enable hotkeys")
+      "Povoliť klávesové skratky")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_FAST_FORWARD_HOLD_KEY,
-      "Fast forward hold")
+      "Rýchle prevíjanie vpred")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_FAST_FORWARD_KEY,
-      "Fast forward toggle")
+      "Zapnúť/vypnúť rýchle prevíjanie vpred")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_FRAMEADVANCE,
-      "Frameadvance")
+      "Posun po jednotlivých snímkoch")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_FULLSCREEN_TOGGLE_KEY,
-      "Fullscreen toggle")
+      "Zapnúť/vypnúť režim celej obrazovky")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_GRAB_MOUSE_TOGGLE,
-      "Grab mouse toggle")
+      "Uchopiť/uvoľniť kurzor myši")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_GAME_FOCUS_TOGGLE,
-      "Game focus toggle")
+      "Zapnúť/vypnúť herný fokus")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_UI_COMPANION_TOGGLE,
-      "Desktop menu toggle")
+      "Zapnúť/vypnúť menu pracovnej plochy")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_LOAD_STATE_KEY,
-      "Load state")
+      "Načítať stav hry")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_MENU_TOGGLE,
-      "Menu toggle")
+      "Zobraziť/skryť menu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_MOVIE_RECORD_TOGGLE,
-      "Movie record toggle")
+      "Začať/ukončiť nahrávanie videa")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_MUTE,
-      "Audio mute toggle")
+      "Stlmiť/zrušiť stlmenie zvuku")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_NETPLAY_GAME_WATCH,
-      "Netplay toggle play/spectate mode")
+      "Prepínať medzi režimom hráča a diváka")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_OSK,
-      "On-screen keyboard toggle")
+      "Zapnúť/vypnúť klávesnicu na obrazovke")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_OVERLAY_NEXT,
-      "Overlay next")
+      "Nasledujúci overlay")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_PAUSE_TOGGLE,
-      "Pause toggle")
+      "Pozastaviť/pokračovať")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_QUIT_KEY,
-      "Quit RetroArch")
+      "Ukončiť RetroArch")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_RESET,
-      "Reset game")
+      "Resetovať hru")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_REWIND,
-      "Rewind")
+      "Previnúť")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_SAVE_STATE_KEY,
-      "Save state")
+      "Uložiť stav hry")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_SCREENSHOT,
-      "Take screenshot")
+      "Vytvoriť snímok obrazovky")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_SHADER_NEXT,
-      "Next shader")
+      "Nasledujúci shader")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_SHADER_PREV,
-      "Previous shader")
+      "Predchádzajúci shader")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_SLOWMOTION_HOLD_KEY,
-      "Slow motion hold")
+      "Spomalený pohyb")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_SLOWMOTION_KEY,
-      "Slow motion toggle")
+      "Zapnúť/vypnúť spomalený pohyb")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_STATE_SLOT_MINUS,
-      "Savestate slot -")
+      "Pozícia pre uloženie stavu hry -")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_STATE_SLOT_PLUS,
-      "Savestate slot +")
+      "Pozícia pre uloženie stavu hry +")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_VOLUME_DOWN,
-      "Volume -")
+      "Hlasitosť -")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_VOLUME_UP,
-      "Volume +")
+      "Hlasitosť +")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_OVERLAY_ENABLE,
-      "Display Overlay")
+      "Povoliť overlay")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_OVERLAY_HIDE_IN_MENU,
-      "Hide Overlay In Menu")
+      "Nezobrazovať overlay v menu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_OVERLAY_SHOW_PHYSICAL_INPUTS,
-      "Show Inputs On Overlay")
+      "Zobrazovať na overlayi vstupy")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_OVERLAY_SHOW_PHYSICAL_INPUTS_PORT,
-      "Show Inputs Listen Port")
+      "Zobrazovať vstupy z nasledujúceho portu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_POLL_TYPE_BEHAVIOR,
-      "Poll Type Behavior")
+      "Správanie ankety")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_POLL_TYPE_BEHAVIOR_EARLY,
-      "Early")
+      "Skoro")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_POLL_TYPE_BEHAVIOR_LATE,
-      "Late")
+      "Neskoro")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_POLL_TYPE_BEHAVIOR_NORMAL,
-      "Normal")
+      "Normálne")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_PREFER_FRONT_TOUCH,
-      "Prefer Front Touch")
+      "Uprednostňovať dotykový vstup na prednej strane")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_REMAPPING_DIRECTORY,
-      "Input Remapping")
+      "Premapovanie vstupu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_REMAP_BINDS_ENABLE,
-      "Remap Binds Enable")
+      "Povoliť nové priradenie klávesov")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_SAVE_AUTOCONFIG,
-      "Save Autoconfig")
+      "Ukladať automatickú konfiguráciu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_SETTINGS,
-      "Input")
+      "Vstup")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_SMALL_KEYBOARD_ENABLE,
-      "Small Keyboard Enable")
+      "Povoliť malú klávesnicu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_TOUCH_ENABLE,
-      "Touch Enable")
+      "Povoliť dotykový vstup")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_TURBO_ENABLE,
-      "Turbo enable")
+      "Povoliť Turbo")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_TURBO_PERIOD,
-      "Turbo Period")
+      "Perióda pre Turbo")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_USER_BINDS,
-      "Input User %u Binds")
+      "Priradenia vstupov pre používateľa %u")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LATENCY_SETTINGS,
-      "Latency")
+      "Latencia")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INTERNAL_STORAGE_STATUS,
-      "Internal storage status")
+      "Stav interného úložiska")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_JOYPAD_AUTOCONFIG_DIR,
-      "Input Autoconfig")
+      "Automatická konfigurácia vstupu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_JOYPAD_DRIVER,
-      "Joypad Driver")
+      "Ovládač joypadu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LAKKA_SERVICES,
-      "Services")
+      "Služby")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LANG_CHINESE_SIMPLIFIED,
       "Čínština (zjednodušená)")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LANG_CHINESE_TRADITIONAL,
