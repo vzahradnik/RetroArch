@@ -12,7 +12,7 @@ MSG_HASH(
       )
 MSG_HASH(
       MSG_UNKNOWN_NETPLAY_COMMAND_RECEIVED,
-      "Bol prijatý neznámy netplay príkaz"
+      "Bol prijatý neznámy príkaz pre hru po sieti"
       )
 MSG_HASH(
       MSG_FILE_ALREADY_EXISTS_SAVING_TO_BACKUP_BUFFER,
@@ -68,35 +68,35 @@ MSG_HASH(
       )
 MSG_HASH(
       MSG_NETPLAY_NOT_RETROARCH,
-      "Pokus o netplay spojenie sa nepodaril, pretože ďalší účastník nemá spustený RetroArch alebo má spustenú jeho starú verziu."
+      "Pokus o pripojenie do hry po sieti sa nepodaril, pretože ďalší účastník nemá spustený RetroArch alebo má spustenú jeho starú verziu."
       )
 MSG_HASH(
       MSG_NETPLAY_OUT_OF_DATE,
-      "Ďalší netplay účastník má spustený RetroArch v starej verzii. Nie je možné sa pripojiť."
+      "Ďalší účastník hry po sieti má spustený RetroArch v starej verzii. Nie je možné sa pripojiť."
       )
 MSG_HASH(
       MSG_NETPLAY_DIFFERENT_VERSIONS,
-      "UPOZORNENIE: Ďalší netplay účastník má spustený RetroArch v odlišnej verzii. Ak sa vyskytnú problémy, použite rovnakú verziu."
+      "UPOZORNENIE: Ďalší účastník hry po sieti má spustený RetroArch v odlišnej verzii. Ak sa vyskytnú problémy, použite rovnakú verziu."
       )
 MSG_HASH(
       MSG_NETPLAY_DIFFERENT_CORES,
-      "Ďalší netplay účastník má spustené odlišné jadro. Nie je možné sa pripojiť."
+      "Ďalší účastník hry po sieti má spustené odlišné jadro. Nie je možné sa pripojiť."
       )
 MSG_HASH(
       MSG_NETPLAY_DIFFERENT_CORE_VERSIONS,
-      "UPOZORNENIE: Ďalší netplay účastník má spustenú odlišnú verziu jadra. Ak sa vyskytnú problémy, použite rovnakú verziu."
+      "UPOZORNENIE: Ďalší účastník hry po sieti má spustenú odlišnú verziu jadra. Ak sa vyskytnú problémy, použite rovnakú verziu."
       )
 MSG_HASH(
       MSG_NETPLAY_ENDIAN_DEPENDENT,
-      "Toto jadro nepodporuje netplay medzi týmito systémami"
+      "Toto jadro nepodporuje hru po sieti medzi týmito systémami"
       )
 MSG_HASH(
       MSG_NETPLAY_PLATFORM_DEPENDENT,
-      "Toto jadro nepodporuje netplay medzi rozdielnymi systémami"
+      "Toto jadro nepodporuje hru po sieti medzi rozdielnymi systémami"
       )
 MSG_HASH(
       MSG_NETPLAY_ENTER_PASSWORD,
-      "Zadajte heslo pre netplay server:"
+      "Zadajte heslo pre server hosťujúci hru po sieti:"
       )
 MSG_HASH(
       MSG_NETPLAY_INCORRECT_PASSWORD,
@@ -108,11 +108,11 @@ MSG_HASH(
       )
 MSG_HASH(
       MSG_NETPLAY_SERVER_HANGUP,
-      "Spojenie s netplay klientom bolo ukončené"
+      "Spojenie s klientom v hre po sieti bolo ukončené"
       )
 MSG_HASH(
       MSG_NETPLAY_CLIENT_HANGUP,
-      "Netplay spojenie bolo ukončené"
+      "Spojenie v hre po sieti bolo ukončené"
       )
 MSG_HASH(
       MSG_NETPLAY_CANNOT_PLAY_UNPRIVILEGED,
@@ -132,7 +132,7 @@ MSG_HASH(
       )
 MSG_HASH(
       MSG_NETPLAY_PEER_PAUSED,
-      "Netplay účastník \"%s\" bol pozastavený"
+      "Účastník hry po sieti \"%s\" bol pozastavený"
       )
 MSG_HASH(
       MSG_NETPLAY_CHANGED_NICK,
@@ -164,7 +164,7 @@ MSG_HASH(
       )
 MSG_HASH(
       MSG_AUTOLOADING_SAVESTATE_FROM,
-      "Automaticky sa načíta uložený stav hry z"
+      "Automaticky sa načíta uložený stav z"
       )
 MSG_HASH(
       MSG_CAPABILITIES,
@@ -172,7 +172,7 @@ MSG_HASH(
       )
 MSG_HASH(
       MSG_CONNECTING_TO_NETPLAY_HOST,
-      "Prebieha pripájanie k netplay hostiteľovi"
+      "Prebieha pripájanie k hostiteľovi hry po sieti"
       )
 MSG_HASH(
       MSG_CONNECTING_TO_PORT,
@@ -184,7 +184,7 @@ MSG_HASH(
       )
 MSG_HASH(
       MSG_SORRY_UNIMPLEMENTED_CORES_DONT_DEMAND_CONTENT_NETPLAY,
-      "Prepáčte, neimplementované: jadrá, ktoré nevyžadujú žiadny obsah sa nemôžu zúčastniť v netplay."
+      "Prepáčte, neimplementované: jadrá, ktoré nevyžadujú žiadny obsah sa nemôžu zúčastniť hry po sieti."
       )
 MSG_HASH(
       MENU_ENUM_LABEL_VALUE_ACCOUNTS_CHEEVOS_PASSWORD,
@@ -240,7 +240,7 @@ MSG_HASH(
       )
 MSG_HASH(
       MENU_ENUM_LABEL_VALUE_NETPLAY_TAB,
-      "Netplay miestnosti"
+      "Miestnosti s hrami po sieti"
       )
 MSG_HASH(
       MENU_ENUM_LABEL_VALUE_ASK_ARCHIVE,
@@ -884,7 +884,7 @@ MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_GAME_FOCUS_TOGGLE,
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_UI_COMPANION_TOGGLE,
       "Zapnúť/vypnúť menu pracovnej plochy")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_LOAD_STATE_KEY,
-      "Načítať stav hry")
+      "Načítať stav")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_MENU_TOGGLE,
       "Zobraziť/skryť menu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_MOVIE_RECORD_TOGGLE,
@@ -906,7 +906,7 @@ MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_RESET,
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_REWIND,
       "Previnúť")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_SAVE_STATE_KEY,
-      "Uložiť stav hry")
+      "Uložiť stav")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_SCREENSHOT,
       "Vytvoriť snímok obrazovky")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_INPUT_META_SHADER_NEXT,
@@ -1008,325 +1008,325 @@ MSG_HASH(MENU_ENUM_LABEL_VALUE_LANG_VIETNAMESE,
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LANG_ARABIC,
       "Arabčina")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LEFT_ANALOG,
-      "Left Analog")
+      "Ľavá analógová páčka")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LIBRETRO_DIR_PATH,
-      "Core")
+      "Jadro")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LIBRETRO_INFO_PATH,
-      "Core Info")
+      "Informácie o jadre")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LIBRETRO_LOG_LEVEL,
-      "Core Logging Level")
+      "Úroveň protokolovania jadra")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LINEAR,
-      "Linear")
+      "Lineárny")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LOAD_ARCHIVE,
-      "Load Archive")
+      "Načítať archív")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LOAD_CONTENT_HISTORY,
-      "Load Recent")
+      "Načítať nedávne")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LOAD_CONTENT_LIST,
-      "Load Content")
+      "Načítať obsah")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LOAD_STATE,
-      "Load State")
+      "Načítať stav")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LOCATION_ALLOW,
-      "Allow Location")
+      "Umožniť určovanie polohy")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LOCATION_DRIVER,
-      "Location Driver")
+      "Ovládač pre určovanie polohy")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LOGGING_SETTINGS,
-      "Logging")
+      "Protokolovanie")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_LOG_VERBOSITY,
-      "Logging Verbosity")
+      "Podrobnosť protokolovania")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MAIN_MENU,
-      "Main Menu")
+      "Hlavné menu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MANAGEMENT,
-      "Database Settings")
+      "Nastavenia databázy")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME,
-      "Menu Color Theme")
+      "Farebný motív menu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_BLUE,
-      "Blue")
+      "Modrá")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_BLUE_GREY,
-      "Blue Grey")
+      "Modrošedá")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_DARK_BLUE,
-      "Dark Blue")
+      "Tmavomodrá")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_GREEN,
-      "Green")
+      "Zelená")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_NVIDIA_SHIELD,
       "Shield")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_RED,
-      "Red")
+      "Červená")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_COLOR_THEME_YELLOW,
-      "Yellow")
+      "Žltá")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_FOOTER_OPACITY,
-      "Footer Opacity")
+      "Krytie päty")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MATERIALUI_MENU_HEADER_OPACITY,
-      "Header Opacity")
+      "Krytie hlavičky")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MENU_DRIVER,
-      "Menu Driver")
+      "Ovládač pre menu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MENU_ENUM_THROTTLE_FRAMERATE,
-      "Throttle Menu Framerate")
+      "Obmedziť snímkovú frekvenciu v menu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MENU_FILE_BROWSER_SETTINGS,
-      "Settings")
+      "Nastavenia")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MENU_LINEAR_FILTER,
-      "Menu Linear Filter")
+      "Lineárny filter pre menu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MENU_HORIZONTAL_ANIMATION,
-      "Horizontal Animation")
+      "Vodorovná animácia")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MENU_SETTINGS,
-      "Appearance")
+      "Vzhľad")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MENU_WALLPAPER,
-      "Background")
+      "Pozadie")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MENU_WALLPAPER_OPACITY,
-      "Background opacity")
+      "Krytie pozadia")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MISSING,
-      "Missing")
+      "Chýba")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MORE,
       "...")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MOUSE_ENABLE,
-      "Mouse Support")
+      "Podpora myši")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MULTIMEDIA_SETTINGS,
-      "Multimedia")
+      "Multimédiá")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MUSIC_TAB,
-      "Music")
+      "Hudba")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NAVIGATION_BROWSER_FILTER_SUPPORTED_EXTENSIONS_ENABLE,
-      "Filter unknown extensions")
+      "Filtrovať neznáme prípony")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NAVIGATION_WRAPAROUND,
-      "Navigation Wrap-Around")
+      "Zahnúť navigáciu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NEAREST,
-      "Nearest")
+      "Najbližší")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY,
-      "Netplay")
+      "Hra po sieti")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_ALLOW_SLAVES,
-      "Allow Slave-Mode Clients")
+      "Povoliť pre klientov režim podriadeného (slave)")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_CHECK_FRAMES,
-      "Netplay Check Frames")
+      "Kontrolovať synchronizáciu hry po sieti")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_INPUT_LATENCY_FRAMES_MIN,
-      "Input Latency Frames")
+      "Vstupná latencia")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_INPUT_LATENCY_FRAMES_RANGE,
-      "Input Latency Frames Range")
+      "Povolená vstupná latencia")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_DELAY_FRAMES,
-      "Netplay Delay Frames")
+      "Oneskorenie hry po sieti")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_DISCONNECT,
-      "Disconnect from netplay host")
+      "Odpojiť sa od hostiteľa hry po sieti")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_ENABLE,
-      "Netplay Enable")
+      "Povoliť hru po sieti")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_ENABLE_CLIENT,
-      "Connect to netplay host")
+      "Pripojiť sa k hostiteľovi hry po sieti")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_ENABLE_HOST,
-      "Start netplay host")
+      "Spustiť hosťovanie hry po sieti")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_DISABLE_HOST,
-      "Stop netplay host")
+      "Zastaviť hosťovanie hry po sieti")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_IP_ADDRESS,
-      "Server Address")
+      "Adresa servera")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_LAN_SCAN_SETTINGS,
-      "Scan local network")
+      "Prehľadávať miestnu sieť")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_MODE,
-      "Netplay Client Enable")
+      "Povoliť klienta pre hru po sieti")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_NICKNAME,
-      "Username")
+      "Meno používateľa")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_PASSWORD,
-      "Server Password")
+      "Heslo servera")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_PUBLIC_ANNOUNCE,
-      "Publicly Announce Netplay")
+      "Verejne oznamovať hru po sieti")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_REQUEST_DEVICE_I,
-      "Request Device %u")
+      "Požadovať zariadenie %u")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_REQUIRE_SLAVES,
-      "Disallow Non-Slave-Mode Clients")
+      "Zakázať klientov, ktorí nebežia v režime podriadeného (slave)")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_SETTINGS,
-      "Netplay settings")
+      "Nastavenia hry po sieti")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_ANALOG,
-      "Analog Input Sharing")
+      "Zdieľanie analógového vstupu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_ANALOG_MAX,
-      "Max")
+      "Maximum")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_ANALOG_AVERAGE,
-      "Average")
+      "Priemer")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_DIGITAL,
-      "Digital Input Sharing")
+      "Zdieľanie digitálneho vstupu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_DIGITAL_OR,
-      "Share")
+      "Zdieľať")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_DIGITAL_XOR,
-      "Grapple")
+      "Zápasiť o ovládanie")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_DIGITAL_VOTE,
-      "Vote")
+      "Hlasovať")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_NONE,
-      "None")
+      "Žiadne")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_SHARE_NO_PREFERENCE,
-      "No preference")
+      "Bez preferencie")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_START_AS_SPECTATOR,
-      "Netplay Spectator Mode")
+      "Režim diváka hry po sieti")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_STATELESS_MODE,
-      "Netplay Stateless Mode")
+      "Bezstavový režim hry po sieti")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_SPECTATE_PASSWORD,
-      "Server Spectate-Only Password")
+      "Heslo servera len pre pozeranie sa")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_SPECTATOR_MODE_ENABLE,
-      "Netplay Spectator Enable")
+      "Povoliť divákov v hre po sieti")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_TCP_UDP_PORT,
-      "Netplay TCP Port")
+      "TCP port pre hru po sieti")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETPLAY_NAT_TRAVERSAL,
-      "Netplay NAT Traversal")
+      "NAT Traversal pre hru po sieti")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETWORK_CMD_ENABLE,
-      "Network Commands")
+      "Príkazy po sieti")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETWORK_CMD_PORT,
-      "Network Command Port")
+      "Port pre príkazy po sieti")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETWORK_INFORMATION,
-      "Network Information")
+      "Informácie o sieti")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETWORK_REMOTE_ENABLE,
-      "Network Gamepad")
+      "Povoliť ovládanie gamepadom po sieti")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETWORK_REMOTE_PORT,
-      "Network Remote Base Port")
+      "Vzdialený sieťový port")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NETWORK_SETTINGS,
-      "Network")
+      "Sieť")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NO,
-      "No")
+      "Nie")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NONE,
-      "None")
+      "Žiadny")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NOT_AVAILABLE,
-      "N/A")
+      "Nie je k dispozícii")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NO_ACHIEVEMENTS_TO_DISPLAY,
-      "No achievements to display.")
+      "Žiadne achievementy na zobrazenie.")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NO_CORE,
-      "No Core")
+      "Žiadne jadro")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NO_CORES_AVAILABLE,
-      "No cores available.")
+      "Nie sú k dispozícii žiadne jadrá.")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NO_CORE_INFORMATION_AVAILABLE,
-      "No core information available.")
+      "Nie sú k dispozícii žiadne informácie o jadre.")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NO_CORE_OPTIONS_AVAILABLE,
-      "No core options available.")
+      "Nie sú k dispozícii žiadne možnosti jadra.")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NO_ENTRIES_TO_DISPLAY,
-      "No entries to display.")
+      "Žiadne položky na zobrazenie.")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NO_HISTORY_AVAILABLE,
-      "No history available.")
+      "Nie je k dispozícii žiadna história.")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NO_INFORMATION_AVAILABLE,
-      "No information is available.")
+      "Nie sú k dispozícii žiadne informácie.")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NO_ITEMS,
-      "No items.")
+      "Žiadne položky.")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NO_NETPLAY_HOSTS_FOUND,
-      "No netplay hosts found.")
+      "Nenašli sa žiadni hostitelia hry po sieti.")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NO_NETWORKS_FOUND,
-      "No networks found.")
+      "Nenašli sa žiadne siete.")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NO_PERFORMANCE_COUNTERS,
-      "No performance counters.")
+      "Žiadne počítadlá výkonu.")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NO_PLAYLISTS,
-      "No playlists.")
+      "Žiadne zoznamy hier.")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NO_PLAYLIST_ENTRIES_AVAILABLE,
-      "No playlist entries available.")
+      "V zozname hier nie sú k dispozícii žiadne položky.")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NO_SETTINGS_FOUND,
-      "No settings found.")
+      "Nenašli sa žiadne nastavenia.")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_NO_SHADER_PARAMETERS,
-      "No shader parameters.")
+      "Žiadne shader parametre.")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_OFF,
-      "OFF")
+      "VYPNUTÉ")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_ON,
-      "ON")
+      "ZAPNUTÉ")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_ONLINE,
       "Online")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_ONLINE_UPDATER,
-      "Online Updater")
+      "Online aktualizácie")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_ONSCREEN_DISPLAY_SETTINGS,
-      "Onscreen Display")
+      "Správy na obrazovke (OSD)")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_ONSCREEN_OVERLAY_SETTINGS,
-      "Onscreen Overlay")
+      "Overlay obrazovky")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_ONSCREEN_NOTIFICATIONS_SETTINGS,
-      "Onscreen Notifications")
+      "Notifikácie na obrazovke")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_OPEN_ARCHIVE,
-      "Browse Archive")
+      "Prehľadávať archív")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_OPTIONAL,
-      "Optional")
+      "Voliteľné")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_OVERLAY,
       "Overlay")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_OVERLAY_AUTOLOAD_PREFERRED,
-      "Autoload Preferred Overlay")
+      "Automaticky načítať uprednostňovaný overlay")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_OVERLAY_DIRECTORY,
       "Overlay")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_OVERLAY_OPACITY,
-      "Overlay Opacity")
+      "Krytie overlayu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_OVERLAY_PRESET,
-      "Overlay Preset")
+      "Predvoľba overlayu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_OVERLAY_SCALE,
-      "Overlay Scale")
+      "Mierka overlayu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_OVERLAY_SETTINGS,
-      "Onscreen Overlay")
+      "Overlaye")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_PAL60_ENABLE,
-      "Use PAL60 Mode")
+      "Použiť režim PAL60")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_PARENT_DIRECTORY,
-      "Parent directory")
+      "Nadradený adresár")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_PAUSE_LIBRETRO,
-      "Pause when menu activated")
+      "Pozastaviť, keď je aktívne menu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_PAUSE_NONACTIVE,
-      "Don't run in background")
+      "Nespúšťať na pozadí")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_PERFCNT_ENABLE,
-      "Performance Counters")
+      "Výkonnostné počítadlá")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_PLAYLISTS_TAB,
-      "Playlists")
+      "Zoznamy hier")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_PLAYLIST_DIRECTORY,
-      "Playlist")
+      "Zoznam hier")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_PLAYLIST_SETTINGS,
-      "Playlists")
+      "Zoznamy hier")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_POINTER_ENABLE,
-      "Touch Support")
+      "Podpora pre dotykové ovládanie")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_PORT,
       "Port")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_PRESENT,
-      "Present")
+      "Prítomný")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_PRIVACY_SETTINGS,
-      "Privacy")
+      "Súkromie")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_MIDI_SETTINGS,
       "MIDI")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_QUIT_RETROARCH,
-      "Quit RetroArch")
+      "Ukončiť RetroArch")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ANALOG,
-      "Analog supported")
+      "Analógové ovládanie podporované")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_BBFC_RATING,
-      "BBFC Rating")
+      "Hodnotenie BBFC")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_CERO_RATING,
-      "CERO Rating")
+      "Hodnotenie CERO")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_COOP,
-      "Co-op supported")
+      "Kooperácia podporovaná")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_CRC32,
       "CRC32")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_DESCRIPTION,
-      "Description")
+      "Popis")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_DEVELOPER,
-      "Developer")
+      "Vývojár")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_EDGE_MAGAZINE_ISSUE,
-      "Edge Magazine Issue")
+      "Vydanie časopisu Edge")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_EDGE_MAGAZINE_RATING,
-      "Edge Magazine Rating")
+      "Hodnotenie časopisu Edge")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_EDGE_MAGAZINE_REVIEW,
-      "Edge Magazine Review")
+      "Recenzia časopisu Edge")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ELSPA_RATING,
-      "ELSPA Rating")
+      "Hodnotenie ELSPA")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ENHANCEMENT_HW,
-      "Enhancement Hardware")
+      "Hardvérové vylepšenia")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ESRB_RATING,
-      "ESRB Rating")
+      "Hodnotenie ESRB")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_FAMITSU_MAGAZINE_RATING,
-      "Famitsu Magazine Rating")
+      "Hodnotenie časopisu Famitsu")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_FRANCHISE,
-      "Franchise")
+      "Franšíza")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_GENRE,
-      "Genre")
+      "Žáner")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_MD5,
       "MD5")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_NAME,
-      "Name")
+      "Názov")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_ORIGIN,
-      "Origin")
+      "Pôvod")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_PEGI_RATING,
-      "PEGI Rating")
+      "Hodnotenie PEGI")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_PUBLISHER,
-      "Publisher")
+      "Vydavateľ")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_RELEASE_MONTH,
-      "Releasedate Month")
+      "Mesiac vydania")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_RELEASE_YEAR,
-      "Releasedate Year")
+      "Rok vydania")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_RUMBLE,
-      "Rumble supported")
+      "Vibrovanie podporované")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_SERIAL,
-      "Serial")
+      "Sériové číslo")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_SHA1,
       "SHA1")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_START_CONTENT,
-      "Start Content")
+      "Spustiť obsah")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RDB_ENTRY_TGDB_RATING,
-      "TGDB Rating")
+      "Hodnotenie TGDB")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_REBOOT,
-      "Reboot")
+      "Reštartovať")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RECORDING_CONFIG_DIRECTORY,
       "Recording Config")
 MSG_HASH(MENU_ENUM_LABEL_VALUE_RECORDING_OUTPUT_DIRECTORY,
